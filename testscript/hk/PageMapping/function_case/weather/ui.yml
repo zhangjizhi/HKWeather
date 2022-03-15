@@ -1,0 +1,13 @@
+hko.MyObservatory_v1_0.hko.homepage.Homepage2Activity:
+  左侧菜单列表: hko.MyObservatory_v1_0:id/left_drawer
+  左侧菜单列表名称: hko.MyObservatory_v1_0:id/text
+  左侧菜单按钮: //*[@content-desc="Navigate up"]
+hko.MyObservatory_v1_0.WeatherForecastActivity:
+  天气预报列表: hko.MyObservatory_v1_0:id/mainAppSevenDayView
+  天气预报列表日期: hko.MyObservatory_v1_0:id/sevenday_forecast_date
+  天气预报列表温度: hko.MyObservatory_v1_0:id/sevenday_forecast_temp
+  天气预报列表湿度: hko.MyObservatory_v1_0:id/sevenday_forecast_rh
+  天气预报列表风: hko.MyObservatory_v1_0:id/sevenday_forecast_wind
+  天气预报列表带伞概率: hko.MyObservatory_v1_0:id/psrText
+  天气预报列表天气详情: hko.MyObservatory_v1_0:id/sevenday_forecast_details
+

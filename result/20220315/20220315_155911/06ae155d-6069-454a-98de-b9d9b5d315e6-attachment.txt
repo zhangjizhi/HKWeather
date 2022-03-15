@@ -1,0 +1,4 @@
+INFO     log:logger.py:92 [GetValueByVariable.16]:{'last_action_pass': True, 'last_result': {'result': True, 'errMsg': ''}}
+INFO     log:logger.py:92 [GetValueByVariable.16]:{'last_action_pass': True, 'last_result': {'result': True, 'errmsg': ''}}
+INFO     log:logger.py:92 [GetValueByVariable.16]:{'last_action_pass': True, 'last_result': {'result': True, 'errMsg': ''}}
+INFO     log:logger.py:92 [testA_hkweather_V1_0_function_01.56]:{'16 Mar': {'天气预报列表温度': '20 - 25°C', '天气预报列表湿度': '70 - 95%', '天气预报列表风': 'East force 3 to 4, occasionally force 5 offshore.', '天气预报列表带伞概率': 'Low', '天气预报列表天气详情': 'Mainly cloudy. One or two rain patches in the morning and at night.'}}

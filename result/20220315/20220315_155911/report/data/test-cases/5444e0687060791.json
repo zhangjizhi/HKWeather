@@ -1,0 +1,750 @@
+{
+  "uid" : "5444e0687060791",
+  "name" : "A_hkweather_V1_0_function_01 - check tomorrow weather forecast from 9-day forecast screen",
+  "fullName" : "testscript.hk.function_pycase.test_weather.TestHKWeather#testA_hkweather_V1_0_function_01",
+  "historyId" : "f571c74a59b0643def726fa7d37316eb",
+  "time" : {
+    "start" : 1647331156468,
+    "stop" : 1647331229327,
+    "duration" : 72859
+  },
+  "description" : "<b style='color:green;'>描述：</b>click left menu<br/>\n                   <b style='color:green;'>执行参数：</b>view: 左侧菜单按钮<br/>\n                   <b style='color:green;'>预期值：</b>无<br/>\n                   <b style='color:green;'>实际执行结果：</b>{result: True, errMsg: }<br/>\n                   <b style='color:green;'>测试结果：</b>测试通过<br/><b style='color:green;'>描述：</b>check list text contain 9-Day Forecast<br/>\n                   <b style='color:green;'>执行参数：</b>view: 左侧菜单列表名称, text: 9-Day Forecast, listView: 左侧菜单列表<br/>\n                   <b style='color:green;'>预期值：</b>无<br/>\n                   <b style='color:green;'>实际执行结果：</b>{result: True, errmsg: }<br/>\n                   <b style='color:green;'>测试结果：</b>通过<br/><b style='color:green;'>描述：</b>click 9-Day Forecast<br/>\n                   <b style='color:green;'>执行参数：</b>view: 9-Day Forecast<br/>\n                   <b style='color:green;'>预期值：</b>无<br/>\n                   <b style='color:green;'>实际执行结果：</b>{result: True, errMsg: }<br/>\n                   <b style='color:green;'>测试结果：</b>测试通过<br/><b style='color:green;'>描述：</b>check tomorrow forceast<br/>\n                   <b style='color:green;'>执行参数：</b>view: 天气预报列表日期, value: 16 Mar, brothers: [天气预报列表温度, 天气预报列表湿度, 天气预报列表风, 天气预报列表带伞概率, 天气预报列表天气详情], listview: 天气预报列表<br/>\n                   <b style='color:green;'>预期值：</b>无<br/>\n                   <b style='color:green;'>实际执行结果：</b>{16 Mar: {天气预报列表温度: 20 - 25°C, 天气预报列表湿度: 70 - 95%, 天气预报列表风: East force 3 to 4, occasionally force 5 offshore., 天气预报列表带伞概率: Low, 天气预报列表天气详情: Mainly cloudy. One or two rain patches in the morning and at night.}}<br/>\n                   <b style='color:green;'>测试结果：</b>通过<br/>",
+  "descriptionHtml" : "<p><b style='color:green;'>描述：</b>click left menu<br/>\n<b style='color:green;'>执行参数：</b>view: 左侧菜单按钮<br/>\n<b style='color:green;'>预期值：</b>无<br/>\n<b style='color:green;'>实际执行结果：</b>{result: True, errMsg: }<br/>\n<b style='color:green;'>测试结果：</b>测试通过<br/><b style='color:green;'>描述：</b>check list text contain 9-Day Forecast<br/>\n<b style='color:green;'>执行参数：</b>view: 左侧菜单列表名称, text: 9-Day Forecast, listView: 左侧菜单列表<br/>\n<b style='color:green;'>预期值：</b>无<br/>\n<b style='color:green;'>实际执行结果：</b>{result: True, errmsg: }<br/>\n<b style='color:green;'>测试结果：</b>通过<br/><b style='color:green;'>描述：</b>click 9-Day Forecast<br/>\n<b style='color:green;'>执行参数：</b>view: 9-Day Forecast<br/>\n<b style='color:green;'>预期值：</b>无<br/>\n<b style='color:green;'>实际执行结果：</b>{result: True, errMsg: }<br/>\n<b style='color:green;'>测试结果：</b>测试通过<br/><b style='color:green;'>描述：</b>check tomorrow forceast<br/>\n<b style='color:green;'>执行参数：</b>view: 天气预报列表日期, value: 16 Mar, brothers: [天气预报列表温度, 天气预报列表湿度, 天气预报列表风, 天气预报列表带伞概率, 天气预报列表天气详情], listview: 天气预报列表<br/>\n<b style='color:green;'>预期值：</b>无<br/>\n<b style='color:green;'>实际执行结果：</b>{16 Mar: {天气预报列表温度: 20 - 25°C, 天气预报列表湿度: 70 - 95%, 天气预报列表风: East force 3 to 4, occasionally force 5 offshore., 天气预报列表带伞概率: Low, 天气预报列表天气详情: Mainly cloudy. One or two rain patches in the morning and at night.}}<br/>\n<b style='color:green;'>测试结果：</b>通过<br/></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<b style='color:green;'>描述：</b>click left menu<br/>\n                   <b style='color:green;'>执行参数：</b>view: 左侧菜单按钮<br/>\n                   <b style='color:green;'>预期值：</b>无<br/>\n                   <b style='color:green;'>实际执行结果：</b>{result: True, errMsg: }<br/>\n                   <b style='color:green;'>测试结果：</b>测试通过<br/><b style='color:green;'>描述：</b>check list text contain 9-Day Forecast<br/>\n                   <b style='color:green;'>执行参数：</b>view: 左侧菜单列表名称, text: 9-Day Forecast, listView: 左侧菜单列表<br/>\n                   <b style='color:green;'>预期值：</b>无<br/>\n                   <b style='color:green;'>实际执行结果：</b>{result: True, errmsg: }<br/>\n                   <b style='color:green;'>测试结果：</b>通过<br/><b style='color:green;'>描述：</b>click 9-Day Forecast<br/>\n                   <b style='color:green;'>执行参数：</b>view: 9-Day Forecast<br/>\n                   <b style='color:green;'>预期值：</b>无<br/>\n                   <b style='color:green;'>实际执行结果：</b>{result: True, errMsg: }<br/>\n                   <b style='color:green;'>测试结果：</b>测试通过<br/><b style='color:green;'>描述：</b>check tomorrow forceast<br/>\n                   <b style='color:green;'>执行参数：</b>view: 天气预报列表日期, value: 16 Mar, brothers: [天气预报列表温度, 天气预报列表湿度, 天气预报列表风, 天气预报列表带伞概率, 天气预报列表天气详情], listview: 天气预报列表<br/>\n                   <b style='color:green;'>预期值：</b>无<br/>\n                   <b style='color:green;'>实际执行结果：</b>{16 Mar: {天气预报列表温度: 20 - 25°C, 天气预报列表湿度: 70 - 95%, 天气预报列表风: East force 3 to 4, occasionally force 5 offshore., 天气预报列表带伞概率: Low, 天气预报列表天气详情: Mainly cloudy. One or two rain patches in the morning and at night.}}<br/>\n                   <b style='color:green;'>测试结果：</b>通过<br/>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化app",
+      "time" : {
+        "start" : 1647331156468,
+        "stop" : 1647331217317,
+        "duration" : 60849
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "执行停止APP",
+        "time" : {
+          "start" : 1647331156468,
+          "stop" : 1647331156589,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('hko.MyObservatory_v1_0',)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "执行启动APP",
+        "time" : {
+          "start" : 1647331156589,
+          "stop" : 1647331158042,
+          "duration" : 1453
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('hko.MyObservatory_v1_0',)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取控件",
+        "time" : {
+          "start" : 1647331161044,
+          "stop" : 1647331196313,
+          "duration" : 35269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "view",
+          "value" : "'hko.MyObservatory_v1_0:id/btn_agree'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取控件",
+        "time" : {
+          "start" : 1647331196314,
+          "stop" : 1647331217316,
+          "duration" : 21002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "view",
+          "value" : "'android:id/button1'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "(True,)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "执行点击控件",
+      "time" : {
+        "start" : 1647331217342,
+        "stop" : 1647331219350,
+        "duration" : 2008
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "执行获取控件",
+        "time" : {
+          "start" : 1647331217342,
+          "stop" : 1647331218086,
+          "duration" : 744
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('左侧菜单按钮', 0)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "view",
+        "value" : "'左侧菜单按钮'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "执行检查列表有指定内容",
+      "time" : {
+        "start" : 1647331219364,
+        "stop" : 1647331224543,
+        "duration" : 5179
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331219365,
+          "stop" : 1647331219493,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331219365,
+            "stop" : 1647331219430,
+            "duration" : 65
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('左侧菜单列表', None)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('左侧菜单列表', '9-Day Forecast')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取控件",
+        "time" : {
+          "start" : 1647331219494,
+          "stop" : 1647331219663,
+          "duration" : 169
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('左侧菜单列表名称',)"
+        }, {
+          "name" : "index",
+          "value" : "'last'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "执行向上滑动",
+        "time" : {
+          "start" : 1647331219803,
+          "stop" : 1647331221733,
+          "duration" : 1930
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331219803,
+            "stop" : 1647331219883,
+            "duration" : 80
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('左侧菜单列表',)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('左侧菜单列表',)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331221733,
+          "stop" : 1647331221943,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331221733,
+            "stop" : 1647331221853,
+            "duration" : 120
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('左侧菜单列表', None)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('左侧菜单列表', '9-Day Forecast')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取控件",
+        "time" : {
+          "start" : 1647331221943,
+          "stop" : 1647331222104,
+          "duration" : 161
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "view",
+          "value" : "'左侧菜单列表名称'"
+        }, {
+          "name" : "index",
+          "value" : "'last'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "执行向上滑动",
+        "time" : {
+          "start" : 1647331222233,
+          "stop" : 1647331224167,
+          "duration" : 1934
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331222233,
+            "stop" : 1647331222305,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('左侧菜单列表',)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('左侧菜单列表',)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331224167,
+          "stop" : 1647331224543,
+          "duration" : 376
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331224167,
+            "stop" : 1647331224284,
+            "duration" : 117
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('左侧菜单列表', None)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('左侧菜单列表', '9-Day Forecast')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "view",
+        "value" : "'左侧菜单列表名称'"
+      }, {
+        "name" : "text",
+        "value" : "'9-Day Forecast'"
+      }, {
+        "name" : "listView",
+        "value" : "'左侧菜单列表'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 12,
+      "hasContent" : true
+    }, {
+      "name" : "执行点击控件",
+      "time" : {
+        "start" : 1647331224545,
+        "stop" : 1647331226279,
+        "duration" : 1734
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "执行获取控件",
+        "time" : {
+          "start" : 1647331224545,
+          "stop" : 1647331224704,
+          "duration" : 159
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('9-Day Forecast', 0)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "view",
+        "value" : "'9-Day Forecast'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "执行通过元素特定值获取列表中的文字",
+      "time" : {
+        "start" : 1647331226279,
+        "stop" : 1647331229314,
+        "duration" : 3035
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "执行获取控件",
+        "time" : {
+          "start" : 1647331226279,
+          "stop" : 1647331226414,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('天气预报列表日期',)"
+        }, {
+          "name" : "index",
+          "value" : "'last'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331226554,
+          "stop" : 1647331227024,
+          "duration" : 470
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331226554,
+            "stop" : 1647331226663,
+            "duration" : 109
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('天气预报列表', None)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('天气预报列表', '天气预报列表日期')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331227024,
+          "stop" : 1647331227493,
+          "duration" : 469
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331227025,
+            "stop" : 1647331227163,
+            "duration" : 138
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('天气预报列表', 0)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('天气预报列表', '天气预报列表温度', 0, 0)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331227493,
+          "stop" : 1647331228016,
+          "duration" : 523
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331227493,
+            "stop" : 1647331227652,
+            "duration" : 159
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('天气预报列表', 0)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('天气预报列表', '天气预报列表湿度', 0, 0)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331228016,
+          "stop" : 1647331228523,
+          "duration" : 507
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331228017,
+            "stop" : 1647331228184,
+            "duration" : 167
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('天气预报列表', 0)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('天气预报列表', '天气预报列表风', 0, 0)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331228523,
+          "stop" : 1647331228994,
+          "duration" : 471
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331228523,
+            "stop" : 1647331228654,
+            "duration" : 131
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('天气预报列表', 0)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('天气预报列表', '天气预报列表带伞概率', 0, 0)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "执行获取所有子元素text",
+        "time" : {
+          "start" : 1647331228994,
+          "stop" : 1647331229314,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "执行获取控件",
+          "time" : {
+            "start" : 1647331228994,
+            "stop" : 1647331229133,
+            "duration" : 139
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "key",
+            "value" : "('天气预报列表', 0)"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "('天气预报列表', '天气预报列表天气详情', 0, 0)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "view",
+        "value" : "'天气预报列表日期'"
+      }, {
+        "name" : "value",
+        "value" : "'16 Mar'"
+      }, {
+        "name" : "brothers",
+        "value" : "['天气预报列表温度', '天气预报列表湿度', '天气预报列表风', '天气预报列表带伞概率', '天气预报列表天气详情']"
+      }, {
+        "name" : "listview",
+        "value" : "'天气预报列表'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 13,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1e1c411fe8ee717d",
+      "name" : "log",
+      "source" : "1e1c411fe8ee717d.txt",
+      "type" : "text/plain",
+      "size" : 754
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 36,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "HK9-day Weather"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testscript.hk.function_pycase"
+  }, {
+    "name" : "suite",
+    "value" : "test_weather"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHKWeather"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-P5HQF76"
+  }, {
+    "name" : "thread",
+    "value" : "16068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testscript.hk.function_pycase.test_weather"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5444e0687060791.json",
+  "parameterValues" : [ ]
+}

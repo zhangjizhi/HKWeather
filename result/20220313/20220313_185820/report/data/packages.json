@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testscript.hk.function_pycase.test_weather",
+    "children" : [ {
+      "name" : "A_hkweather_V1_0_function_01 - check tomorrow weather forecast from 9-day forecast screen",
+      "uid" : "df9190b9427b9e37",
+      "parentUid" : "6885503fa65db19df34e1dbc4f45e0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647169103522,
+        "stop" : 1647169161617,
+        "duration" : 58095
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "A_hkweather_V1_0_function_02 - today after tomorrow weather forecast info from forecast api",
+      "uid" : "f46df98e228fbd39",
+      "parentUid" : "6885503fa65db19df34e1dbc4f45e0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647169161624,
+        "stop" : 1647169162960,
+        "duration" : 1336
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testscript.hk.function_pycase.test_weather"
+  } ]
+}

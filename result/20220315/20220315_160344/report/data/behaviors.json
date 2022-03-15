@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "HK9-day Weather",
+    "children" : [ {
+      "name" : "A_hkweather_V1_0_function_01 - check tomorrow weather forecast from 9-day forecast screen",
+      "uid" : "65dda3e958863507",
+      "parentUid" : "7505fd5dd5e024a51af3b4040020b2af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647331427722,
+        "stop" : 1647331485018,
+        "duration" : 57296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "A_hkweather_V1_0_function_02 - today after tomorrow weather forecast info from forecast api",
+      "uid" : "6cdb403c894618b2",
+      "parentUid" : "7505fd5dd5e024a51af3b4040020b2af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647331485023,
+        "stop" : 1647331485861,
+        "duration" : 838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7505fd5dd5e024a51af3b4040020b2af"
+  } ]
+}

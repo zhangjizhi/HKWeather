@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testscript.hk.function_pycase",
+    "children" : [ {
+      "name" : "test_weather",
+      "children" : [ {
+        "name" : "TestHKWeather",
+        "children" : [ {
+          "name" : "A_hkweather_V1_0_function_01 - check tomorrow weather forecast from 9-day forecast screen",
+          "uid" : "65dda3e958863507",
+          "parentUid" : "45c1e9205a24ad87895af8e1565ac09e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647331427722,
+            "stop" : 1647331485018,
+            "duration" : 57296
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "A_hkweather_V1_0_function_02 - today after tomorrow weather forecast info from forecast api",
+          "uid" : "6cdb403c894618b2",
+          "parentUid" : "45c1e9205a24ad87895af8e1565ac09e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647331485023,
+            "stop" : 1647331485861,
+            "duration" : 838
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "45c1e9205a24ad87895af8e1565ac09e"
+      } ],
+      "uid" : "9d69340c784c5127211367060790289a"
+    } ],
+    "uid" : "d26f64bebbe509637b9e588fe7dcb47c"
+  } ]
+}

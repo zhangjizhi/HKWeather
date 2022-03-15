@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f46df98e228fbd39",
+  "name" : "A_hkweather_V1_0_function_02 - today after tomorrow weather forecast info from forecast api",
+  "time" : {
+    "start" : 1647169161624,
+    "stop" : 1647169162960,
+    "duration" : 1336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df9190b9427b9e37",
+  "name" : "A_hkweather_V1_0_function_01 - check tomorrow weather forecast from 9-day forecast screen",
+  "time" : {
+    "start" : 1647169103522,
+    "stop" : 1647169161617,
+    "duration" : 58095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

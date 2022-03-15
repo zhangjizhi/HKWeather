@@ -1,0 +1,1514 @@
+--------- beginning of main
+--------- beginning of system
+03-15 07:57:46.806  1718  1718 E fsverity_init: Failed to load /product/etc/security/fsverity/*.der
+03-15 07:57:46.814  1719  1719 E /system/bin/mini-keyctl: Cannot find keyring id
+03-15 07:57:46.820  1720  1720 E fsverity_init: Failed to restrict .fs-verity keyring
+03-15 07:57:46.878  1721  1721 E apexd   : Failed to walk /product/apex : Can't open /product/apex for reading : No such file or directory
+03-15 07:57:46.961  1721  1721 E apexd   : Failed to activate packages from /product/apex : Failed to scan /product/apex : Can't open /product/apex for reading : No such file or directory
+03-15 07:57:47.129  1738  1738 F art_apex: Device is not fsverity-enabled.
+03-15 07:57:47.396  1762  1762 E GoldfishGatekeeper: called goldfish_gatekeeper_open with gate keeper 0xf620e0d8 device 0xf5e7c000
+03-15 07:57:47.655  1756  1756 E EmulatedCamera_Factory: 2 cameras are being emulated. 1 of them are fake cameras.
+03-15 07:57:47.655  1756  1756 E EmulatedCamera_HotplugThread: createFileIfNotExists: Could not create file '/data/misc/media/emulator.camera.hotplug.0', error: 'Permission denied' (13)
+03-15 07:57:47.655  1756  1756 E EmulatedCamera_HotplugThread: createFileIfNotExists: Could not create file '/data/misc/media/emulator.camera.hotplug.1', error: 'Permission denied' (13)
+03-15 07:57:47.659  1756  1756 E CamPrvdr@2.4-legacy: setUpVendorTags: Vendor tag operations not fully defined. Ignoring definitions.
+03-15 07:57:47.659  1756  1756 E CamPrvdr@2.4-legacy: initialize: Vendor tag setup failed, will not be available.
+03-15 07:57:47.976  1754  1754 E audiohalservice: Could not get passthrough implementation for android.hardware.audio@5.0::IDevicesFactory/default.
+03-15 07:57:48.003  1754  1754 E audiohalservice: Could not get passthrough implementation for android.hardware.audio.effect@5.0::IEffectsFactory/default.
+03-15 07:57:48.032  1754  1754 E audiohalservice: Could not get passthrough implementation for android.hardware.soundtrigger@2.2::ISoundTriggerHw/default.
+03-15 07:57:48.035  1754  1754 E audiohalservice: Could not get passthrough implementation for android.hardware.soundtrigger@2.1::ISoundTriggerHw/default.
+03-15 07:57:48.053  1754  1754 E SoundTriggerHalImpl: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+03-15 07:57:48.065  1754  1754 E audiohalservice: Could not get passthrough implementation for android.hardware.bluetooth.audio@2.0::IBluetoothAudioProvidersFactory/default.
+03-15 07:57:48.066  1754  1754 E audiohalservice: Could not get passthrough implementation for android.hardware.bluetooth.a2dp@1.0::IBluetoothAudioOffload/default.
+03-15 07:57:48.103  1883  1883 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+03-15 07:57:48.120  1891  1891 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+03-15 07:57:48.149  1858  1858 E vndksupport: Could not load libstagefrighthw.so from default namespace: dlopen failed: library "libstagefrighthw.so" not found.
+03-15 07:57:48.162  1905  1905 E hostapd : Configuration file: /data/vendor/wifi/hostapd/hostapd.conf
+03-15 07:57:48.279  1836  1836 E CameraProviderManager: DeviceInfo3: Converted ICameraDevice instance to nullptr
+03-15 07:57:48.281  1836  1836 E CameraProviderManager: DeviceInfo3: Converted ICameraDevice instance to nullptr
+03-15 07:57:48.285  1836  1836 E CameraHardwareInterface: initialize: openSession failed! No such file or directory (-2)
+03-15 07:57:48.285  1836  1836 E CameraFlashlight: connectCameraDevice: initializing camera 1 failed
+03-15 07:57:48.285  1836  1836 E CameraFlashlight: findFlashUnits: failed to check if camera 1 has a flash unit. No such file or directory (-2)
+03-15 07:57:48.286  1836  1836 E CameraHardwareInterface: initialize: openSession failed! No such file or directory (-2)
+03-15 07:57:48.286  1836  1836 E CameraFlashlight: connectCameraDevice: initializing camera 0 failed
+03-15 07:57:48.286  1836  1836 E CameraFlashlight: findFlashUnits: failed to check if camera 0 has a flash unit. No such file or directory (-2)
+03-15 07:57:48.399  1848  1848 E MediaExtractorFactory: couldn't opendir(/system/lib/extractors)
+03-15 07:57:48.449  1789  1789 E APM::Serializer: deserialize: Could not parse /odm/etc/audio_policy_configuration.xml document.
+03-15 07:57:48.454  1789  1789 E APM::AudioPolicyEngine/Config: parse: Could not parse document /vendor/etc/audio_policy_engine_configuration.xml
+03-15 07:57:48.454  1789  1789 E APM::AudioPolicyEngine/Config: parseLegacyVolumeFile: Could not parse document /odm/etc/audio_policy_configuration.xml
+03-15 07:57:49.006  1747  1747 E Netd    : cannot find interface dummy0
+03-15 07:57:49.056  1747  1747 E Netd    : Unable to create netlink socket for family 5: Protocol not supported
+03-15 07:57:49.409  1799  1903 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:57:49.735  1748  1748 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. class_init is effectively a no-op
+03-15 07:57:49.933  1984  2011 E BootAnimation: Could not add watch for /data/system
+03-15 07:57:50.871  2014  2014 E UsbAlsaJackDetectorJNI: Can't register UsbAlsaJackDetector native methods
+03-15 07:57:51.044  2014  2049 E BatteryStatsService: Unable to load Power.Stats.HAL. Setting rail availability to false
+03-15 07:57:51.044  2014  2049 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:51.045  2014  2049 E BatteryExternalStatsWorker: no controller energy info supplied for telephony
+03-15 07:57:51.056  2014  2049 E KernelCpuUidFreqTimeReader: Failed to read /proc/uid_time_in_state: java.nio.file.NoSuchFileException: /proc/uid_time_in_state
+03-15 07:57:51.064  2014  2014 E memtrack: Couldn't load memtrack module
+03-15 07:57:51.171  1799  1903 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:57:51.686  2014  2014 E PackageManager: There should probably be a verifier, but, none were found
+03-15 07:57:51.908  2014  2049 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:51.909  2014  2049 E BatteryExternalStatsWorker: no controller energy info supplied for telephony
+03-15 07:57:51.911  2014  2049 E KernelCpuUidFreqTimeReader: Failed to read /proc/uid_time_in_state: java.nio.file.NoSuchFileException: /proc/uid_time_in_state
+03-15 07:57:51.911  1789  1789 E SoundTriggerHwService: could not read implementation properties
+03-15 07:57:51.948  2014  2049 E KernelCpuUidFreqTimeReader: Failed to read /proc/uid_time_in_state: java.nio.file.NoSuchFileException: /proc/uid_time_in_state
+03-15 07:57:52.016  2014  2103 E SystemServer: Unable to preload default resources
+03-15 07:57:52.057  2014  2014 E VibratorService: vibratorOff command failed (1).
+03-15 07:57:52.075  2014  2108 E InputClassifier: InputClassifier HAL has died. Setting mMotionClassifier to null
+03-15 07:57:52.929  2014  2014 E HostapdHal: Malformed channel value detected: java.lang.NumberFormatException: For input string: ""
+03-15 07:57:53.008  2014  2014 E WifiClientModeImpl: getWifiLinkLayerStats called without an interface
+03-15 07:57:53.011  2014  2014 E SupplicantStaIfaceHal: Can't call setDebugParams, ISupplicant is null
+03-15 07:57:53.157  2014  2014 E AudioSystem-JNI: Command failed for android_media_AudioSystem_muteMicrophone: -38
+03-15 07:57:53.192  2014  2014 E UsbDeviceManager: failed to write to /sys/class/android_usb/android0/f_rndis/ethaddr
+03-15 07:57:53.196  2014  2014 E UsbDeviceManagerJNI: could not open control for mtp No such file or directory
+03-15 07:57:53.196  2014  2014 E UsbDeviceManager: Failed to open control for mtp
+03-15 07:57:53.196  2014  2014 E UsbDeviceManagerJNI: could not open control for ptp No such file or directory
+03-15 07:57:53.196  2014  2014 E UsbDeviceManager: Failed to open control for ptp
+03-15 07:57:53.218  2014  2014 E UsbDeviceManagerJNI: could not open /dev/usb_accessory
+03-15 07:57:53.227  2014  2014 E UsbPortManager: connectToProxy: usb hal service not found. Did the service fail to start?
+03-15 07:57:53.227  2014  2014 E UsbPortManager: java.util.NoSuchElementException
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at android.os.HwBinder.getService(Native Method)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at android.os.HwBinder.getService(HwBinder.java:83)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at android.hardware.usb.V1_0.IUsb.getService(IUsb.java:70)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at android.hardware.usb.V1_0.IUsb.getService(IUsb.java:77)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.usb.UsbPortManager.connectToProxy(UsbPortManager.java:780)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.usb.UsbPortManager.<init>(UsbPortManager.java:175)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.usb.UsbService.<init>(UsbService.java:153)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.usb.UsbService$Lifecycle.onStart(UsbService.java:84)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:129)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:116)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:75)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:1532)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.SystemServer.run(SystemServer.java:512)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.server.SystemServer.main(SystemServer.java:349)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at java.lang.reflect.Method.invoke(Native Method)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+03-15 07:57:53.227  2014  2014 E UsbPortManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:908)
+03-15 07:57:53.231  2014  2014 E HardwarePropertiesManagerService-JNI: Unable to get Thermal service.
+03-15 07:57:53.592  1864  1864 E FingerprintHal: Could not load fingerprints from storage at /data/vendor_de/0/fpdata/emufp.bin; it has not yet been created.
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: Failed to initialize KernelCpuThreadReader
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: java.nio.file.NoSuchFileException: /proc/self/time_in_state
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at java.nio.file.Files.newByteChannel(Files.java:361)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at java.nio.file.Files.newByteChannel(Files.java:407)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at java.nio.file.Files.readAllBytes(Files.java:3152)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.internal.os.ProcTimeInStateReader.initializeTimeInStateFormat(ProcTimeInStateReader.java:163)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.internal.os.ProcTimeInStateReader.<init>(ProcTimeInStateReader.java:110)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.internal.os.KernelCpuThreadReader.<init>(KernelCpuThreadReader.java:137)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.internal.os.KernelCpuThreadReader.create(KernelCpuThreadReader.java:150)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.internal.os.KernelCpuThreadReaderSettingsObserver.<init>(KernelCpuThreadReaderSettingsObserver.java:94)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.internal.os.KernelCpuThreadReaderSettingsObserver.getSettingsModifiedReader(KernelCpuThreadReaderSettingsObserver.java:79)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.server.stats.StatsCompanionService.<init>(StatsCompanionService.java:377)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.server.stats.StatsCompanionService$Lifecycle.onStart(StatsCompanionService.java:2539)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:129)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:116)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:1879)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.server.SystemServer.run(SystemServer.java:512)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.server.SystemServer.main(SystemServer.java:349)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at java.lang.reflect.Method.invoke(Native Method)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+03-15 07:57:53.644  2014  2014 E KernelCpuThreadReader: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:908)
+03-15 07:57:53.651  2014  2014 E AutofillManagerServiceImpl: Bad service name: com.google.android.gms/.autofill.service.AutofillService
+03-15 07:57:53.678  2014  2014 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.password.key: open failed: ENOENT (No such file or directory)
+03-15 07:57:53.679  2014  2014 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/password.key: open failed: ENOENT (No such file or directory)
+03-15 07:57:53.679  2014  2014 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.pattern.key: open failed: ENOENT (No such file or directory)
+03-15 07:57:53.679  2014  2014 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.gesture.key: open failed: ENOENT (No such file or directory)
+03-15 07:57:53.679  2014  2014 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gesture.key: open failed: ENOENT (No such file or directory)
+03-15 07:57:53.726  2014  2014 E TestHarnessModeService: Failed to start Test Harness Mode; no implementation of PersistentDataBlockManagerInternal was bound!
+03-15 07:57:53.831  2014  2014 E DisplayPowerController: failed to set up display white-balance: java.lang.IllegalStateException: cannot find sensor com.google.sensor.color
+03-15 07:57:53.853  2014  2049 E KernelCpuUidFreqTimeReader: Failed to read /proc/uid_time_in_state: java.nio.file.NoSuchFileException: /proc/uid_time_in_state
+03-15 07:57:53.913  2014  2038 E DisplayModeDirector: Asked about unknown display, returning empty allowed set! (id=0)
+03-15 07:57:53.913  2014  2038 E DisplayModeDirector: Asked about unknown display, returning empty allowed set! (id=0)
+03-15 07:57:53.945  1772  1772 E android.hardware.wifi@1.0-service: Failed to register radio mode change callback
+03-15 07:57:53.981  1772  1772 E android.hardware.wifi@1.0-service: Failed to set DFS flag; DFS channels may be unavailable.
+03-15 07:57:54.013  1857  1857 E wificond: No Offload Service available
+03-15 07:57:54.019  2014  2121 E SupplicantStaIfaceHal: checkHalVersionByInterfaceName: called but mServiceManager is null
+03-15 07:57:54.019  2014  2121 E SupplicantStaIfaceHal: Method getKeyMgmtCapabilities is not supported in existing HAL
+03-15 07:57:54.047  2014  2121 E WifiConfigManager: Cannot save to store before store is read!
+03-15 07:57:54.050  2014  2121 E WifiNative: Could not get Iface object for interface null
+03-15 07:57:54.054  2014  2125 E WifiVendorHal: getBgScanCapabilities(l.630) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+03-15 07:57:54.054  2014  2121 E WifiNative: Could not get Iface object for interface null
+03-15 07:57:54.127  2014  2014 E BitmapFactory: Unable to decode stream: java.io.FileNotFoundException: /data/system/users/0/wallpaper_orig: open failed: ENOENT (No such file or directory)
+03-15 07:57:54.128  2014  2014 E WallpaperManagerService: Unable to apply new wallpaper
+03-15 07:57:54.139  2014  2135 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:54.139  2014  2135 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:54.167  2014  2121 E WifiNative: Could not get Iface object for interface null
+03-15 07:57:54.181  2014  2049 E BatteryExternalStatsWorker: no controller energy info supplied for telephony
+03-15 07:57:54.385  2014  2014 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. is_supported is effectively a no-op
+03-15 07:57:54.403  1763  1763 E GnssHAL_GnssInterface: getExtensionAGnss: AGnss interface not implemented by HAL
+03-15 07:57:54.405  2014  2049 E KernelCpuUidFreqTimeReader: Failed to read /proc/uid_time_in_state: java.nio.file.NoSuchFileException: /proc/uid_time_in_state
+03-15 07:57:54.407  1763  1763 E GnssHAL_GnssInterface: getExtensionGnssMeasurement: GnssMeasurement interface not implemented by HAL
+03-15 07:57:54.418  1763  1763 E GnssHAL_GnssInterface: getExtensionGnssConfiguration: GnssConfiguration interface not implemented by HAL
+03-15 07:57:54.421  1763  1763 E GnssHAL_GnssInterface: getExtensionGnssGeofencing: GnssGeofencing interface not implemented by HAL
+03-15 07:57:54.422  1763  1763 E GnssHAL_GnssInterface: gnss flp hw_get_module failed: -2
+03-15 07:57:54.422  1763  1763 E GnssHAL_GnssInterface: getExtensionGnssBatching: GnssBatching interface is not implemented by HAL
+03-15 07:57:54.423  1763  1763 E GnssHAL_GnssInterface: calling setCallback
+03-15 07:57:54.421  1857  1857 E wificond: Receive ERROR message in response to 'stop scheduled scan' request: Operation not supported on transport endpoint
+03-15 07:57:54.441  2014  2035 E GnssLocationProvider: android_location_GnssLocationProvider_set_agps_server: AGPS interface not supported
+03-15 07:57:54.485  2014  2121 E HalDevMgr: getAllChipInfo: called but mWifi is null!?
+03-15 07:57:54.485  2014  2121 E HalDevMgr: dispatchAvailableForRequestListeners: no chip info found
+03-15 07:57:54.486  2014  2121 E WifiNative: Could not get Iface object for interface null
+03-15 07:57:54.496  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818d80:google.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.496  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818d80:google.h264.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.511  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818d80:google.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.512  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818d80:google.h263.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.572  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818d80:google.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.573  1858  1858 E OMXNodeInstance: getExtensionIndex(0xec818d80:google.hevc.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.580  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818cc0:google.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.580  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818cc0:google.mpeg4.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.601  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818ea0:google.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.601  1858  1919 E OMXNodeInstance: getExtensionIndex(0xec818ea0:google.vp8.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.614  1858  1858 E OMXNodeInstance: getExtensionIndex(0xec818f60:google.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.615  1858  1858 E OMXNodeInstance: getExtensionIndex(0xec818f60:google.vp9.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.636  1905  1905 E hostapd : Using interface wlan1 with hwaddr 02:15:b2:00:01:00 and ssid "AndroidWifi"
+03-15 07:57:54.652  1858  1858 E OMXNodeInstance: getConfig(0xec818f60:google.h263.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+03-15 07:57:54.653  1858  1858 E OMXNodeInstance: getParameter(0xec818f60:google.h263.encoder, ParamVideoIntraRefresh(0x6000006)) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.670  1858  2313 E OMXNodeInstance: getConfig(0xec818f60:google.mpeg4.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+03-15 07:57:54.670  1858  2313 E OMXNodeInstance: getParameter(0xec818f60:google.mpeg4.encoder, ParamVideoIntraRefresh(0x6000006)) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.688  1858  1858 E OMXNodeInstance: getConfig(0xec819020:google.vp8.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+03-15 07:57:54.688  1858  1858 E OMXNodeInstance: getParameter(0xec819020:google.vp8.encoder, ParamVideoIntraRefresh(0x6000006)) ERROR: UnsupportedIndex(0x8000101a)
+03-15 07:57:54.708  1858  1858 E OMXNodeInstance: getConfig(0xec819020:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:54.902  1763  1763 E GnssHAL_GnssInterface: calling setCallback
+03-15 07:57:54.904  2014  2035 E GnssLocationProvider: android_location_GnssLocationProvider_set_agps_server: AGPS interface not supported
+03-15 07:57:54.905  2014  2035 E GnssBatchingProvider: Failed to initialize GNSS batching
+03-15 07:57:54.937  1858  1918 E OMXNodeInstance: getConfig(0xec819020:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:55.144  1858  1858 E OMXNodeInstance: getConfig(0xec8190e0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:55.204  2275  2275 E CarrierIdProvider: read carrier list from ota pb failure: java.io.FileNotFoundException: /data/misc/carrierid/carrier_list.pb: open failed: ENOENT (No such file or directory)
+03-15 07:57:55.262  1772  1772 E android.hardware.wifi@1.0-service: Failed to register radio mode change callback
+03-15 07:57:55.307  1772  1772 E android.hardware.wifi@1.0-service: Failed to set DFS flag; DFS channels may be unavailable.
+03-15 07:57:55.323  1857  1857 E wificond: No Offload Service available
+03-15 07:57:55.329  2014  2121 E SupplicantStaIfaceHal: Can't call setupIface, ISupplicantStaIface is null
+03-15 07:57:55.341  1799  1887 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:57:55.342  1799  1887 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:57:55.349  1858  2344 E OMXNodeInstance: getConfig(0xec8190e0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:55.363  2014  2014 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:55.412  2014  2121 E SupplicantStaIfaceHal: Method getKeyMgmtCapabilities is not supported in existing HAL
+03-15 07:57:55.428  1858  1858 E OMXNodeInstance: getConfig(0xec819440:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:55.464  2014  2125 E WifiVendorHal: getBgScanCapabilities(l.630) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+03-15 07:57:55.711  1858  1858 E OMXNodeInstance: getConfig(0xec819440:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: isCaptionsServiceEnabled failed to check for captions component
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: java.lang.IllegalArgumentException: Unknown component: ComponentInfo{com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService}
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.os.Parcel.createException(Parcel.java:2075)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.os.Parcel.readException(Parcel.java:2039)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.os.Parcel.readException(Parcel.java:1987)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.content.pm.IPackageManager$Stub$Proxy.getComponentEnabledSetting(IPackageManager.java:7365)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.app.ApplicationPackageManager.getComponentEnabledSetting(ApplicationPackageManager.java:2563)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at com.android.systemui.volume.VolumeDialogControllerImpl.onGetCaptionsComponentStateW(VolumeDialogControllerImpl.java:414)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at com.android.systemui.volume.VolumeDialogControllerImpl.access$1800(VolumeDialogControllerImpl.java:83)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at com.android.systemui.volume.VolumeDialogControllerImpl$W.handleMessage(VolumeDialogControllerImpl.java:800)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: Caused by: android.os.RemoteException: Remote stack trace:
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at com.android.server.pm.Settings.getComponentEnabledSettingLPr(Settings.java:4258)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at com.android.server.pm.PackageManagerService.getComponentEnabledSetting(PackageManagerService.java:21520)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:3489)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4014)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 	at android.os.Binder.execTransactInternal(Binder.java:1021)
+03-15 07:57:55.776  2159  2390 E vol.VolumeDialogControl: 
+03-15 07:57:55.792  1858  2416 E OMXNodeInstance: getConfig(0xea746300:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:55.812  2014  2014 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:55.824  2014  2014 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:55.879  1799  1887 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:57:55.879  1799  1887 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:57:55.971  1858  1858 E OMXNodeInstance: getConfig(0xec819440:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:55.976  1858  1858 E OMXNodeInstance: getConfig(0xec819500:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+03-15 07:57:56.114  2014  2014 E WiredAccessoryManager: No state change.
+03-15 07:57:56.140  2159  2159 E ActivityThread: Failed to find provider info for com.google.android.apps.turbo.estimated_time_remaining
+03-15 07:57:56.175  2014  2014 E AudioSystem-JNI: Command failed for android_media_AudioSystem_muteMicrophone: -38
+03-15 07:57:56.264  2014  2121 E SupplicantStaIfaceHal: ISupplicantStaIface.setPowerSave failed: {.code = FAILURE_UNKNOWN, .debugMessage = }
+03-15 07:57:56.266  2014  2121 E WifiConfigManager: Cannot save to store before store is read!
+03-15 07:57:56.305  2275  2503 E ActivityThread: Failed to find provider info for com.android.contacts
+03-15 07:57:56.313  2275  2275 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:56.407  2014  2132 E ActivityThread: Failed to find provider info for com.android.calendar
+03-15 07:57:56.408  2014  2132 E ActivityThread: Failed to find provider info for com.android.calendar
+03-15 07:57:56.569  2014  2014 E ContentSuggestionsPerUserService: Bad service name: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService
+03-15 07:57:56.931  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+03-15 07:57:56.939  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] isRttSupported: no Phone found. Invalid subId:-1
+03-15 07:57:57.003  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+03-15 07:57:57.004  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] isRttSupported: no Phone found. Invalid subId:-1
+03-15 07:57:57.006  2159  2159 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:57:57.061  2159  2159 E libc    : Access denied finding property "ro.vendor.aware_available"
+03-15 07:57:57.090  2159  2498 E ActivityThread: Failed to find provider info for com.android.contacts
+03-15 07:57:57.184  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+03-15 07:57:57.186  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] isRttSupported: no Phone found. Invalid subId:-1
+03-15 07:57:57.247  2014  2304 E memtrack: Couldn't load memtrack module
+03-15 07:57:57.351  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+03-15 07:57:57.352  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] isRttSupported: no Phone found. Invalid subId:-1
+03-15 07:57:57.564  2014  2132 E ActivityThread: Failed to find provider info for com.android.calendar
+03-15 07:57:57.564  2014  2132 E ActivityThread: Failed to find provider info for com.android.calendar
+03-15 07:57:57.618  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+03-15 07:57:57.627  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] isRttSupported: no Phone found. Invalid subId:-1
+03-15 07:57:57.650  2159  2498 E ActivityThread: Failed to find provider info for com.android.contacts
+03-15 07:57:57.677  2159  2498 E ActivityThread: Failed to find provider info for com.android.contacts
+03-15 07:57:57.754  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+03-15 07:57:57.756  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] isRttSupported: no Phone found. Invalid subId:-1
+03-15 07:57:57.786  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+03-15 07:57:57.786  2275  2275 E PhoneInterfaceManager: [PhoneIntfMgr] isRttSupported: no Phone found. Invalid subId:-1
+03-15 07:57:57.930  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:57.942  2014  2035 E GnssLocationProvider: android_location_GnssLocationProvider_set_agps_server: AGPS interface not supported
+03-15 07:57:58.185  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.195  2014  2035 E GnssLocationProvider: android_location_GnssLocationProvider_set_agps_server: AGPS interface not supported
+03-15 07:57:58.234  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.532  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.580  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.610  2014  2035 E GnssLocationProvider: android_location_GnssLocationProvider_set_agps_server: AGPS interface not supported
+03-15 07:57:58.610  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.671  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.681  2567  2600 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.683  2567  2600 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.687  2567  2600 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.689  2567  2600 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.693  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.702  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.727  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: Unable to record the restart.
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: java.io.IOException: No such file or directory
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at java.io.UnixFileSystem.createFileExclusively0(Native Method)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at java.io.UnixFileSystem.createFileExclusively(UnixFileSystem.java:317)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at java.io.File.createNewFile(File.java:1008)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at ryg.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):4)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at rwm.c(:com.google.android.gms@202414022@20.24.14 (040700-319035315):1)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at rws.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):34)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at rwz.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):33)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at rwv.run(Unknown Source:0)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:57:58.754  2567  2600 E WriteRestartFix: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:57:58.771  2567  2600 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.781  2567  2600 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.782  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.857  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.884  2567  2606 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.885  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.890  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.893  2567  2606 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.903  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.909  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.913  2567  2606 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.917  2567  2606 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.925  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.952  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.953  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.955  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.956  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.959  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.971  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.973  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.996  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:58.997  2159  2612 E GmsClient: unable to connect to service: com.google.android.gms.tapandpay.service.BIND on com.google.android.gms
+03-15 07:57:58.999  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.046  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.050  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.056  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.066  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.070  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.072  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.081  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.093  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.107  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.123  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.153  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.156  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.157  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.162  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.167  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.192  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.206  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.207  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.222  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.267  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.272  2567  2609 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.285  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.286  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.289  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.301  2567  2567 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.306  2567  2642 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.318  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.325  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.338  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.364  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.430  2619  2645 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.450  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.451  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.464  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.465  2567  2613 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:57:59.702  2159  2159 E StatusBarSignalPolicy: Unexpected subscription 1
+03-15 07:57:59.740  2275  2462 E libc    : Access denied finding property "net.radio0.dns1"
+03-15 07:57:59.740  2275  2462 E libc    : Access denied finding property "net.radio0.dns2"
+03-15 07:57:59.832  1747  1992 E Netd    : Error adding route ::/0 -> fe80::2 radio0 to table 1010: File exists
+03-15 07:57:59.853  2014  2038 E TestHarnessModeService: Failed to start Test Harness Mode; no implementation of PersistentDataBlockManagerInternal was bound!
+03-15 07:57:59.951  2685  2685 E bootstat: Failed to read /data/misc/bootstat/post_decrypt_time_elapsed: No such file or directory
+03-15 07:57:59.951  2685  2685 E bootstat: Failed to parse boot time record: /data/misc/bootstat/post_decrypt_time_elapsed
+03-15 07:58:00.104  1747  2726 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:00.175  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.176  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.179  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.179  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.179  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.180  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.180  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.180  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.180  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.180  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.181  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.181  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.182  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.190  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.190  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.190  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.190  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.191  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.191  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.192  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.193  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.193  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.197  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.197  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.198  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.198  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.198  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.198  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.199  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.199  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.199  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.199  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.200  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.200  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.200  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.200  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.200  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.201  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.201  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.201  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.202  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.202  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.202  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.202  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.202  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.203  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.203  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.204  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.205  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.205  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.205  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.205  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.205  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.206  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.207  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.213  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.214  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.214  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.215  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.215  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.216  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.217  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.217  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.218  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.220  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.220  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.220  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.220  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.220  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.221  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.221  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.222  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.222  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.222  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.225  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.233  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.235  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.240  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.256  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.271  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.280  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.281  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.284  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:00.330  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.359  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.465  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.486  2706  2766 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.497  2706  2766 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.498  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.499  2706  2766 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.504  2706  2766 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.508  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.509  2706  2766 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.521  2706  2766 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.523  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.529  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.530  2706  2766 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.531  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.540  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.564  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.573  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.581  2706  2771 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.585  2706  2771 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.589  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.598  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.599  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.601  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.645  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.656  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.662  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.713  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.715  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.736  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.751  2706  2706 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+03-15 07:58:00.834  2014  2035 E GnssLocationProvider: android_location_GnssLocationProvider_set_agps_server: AGPS interface not supported
+03-15 07:58:00.934  2014  2044 E SystemCaptionsManagerPerUserService: Bad service name: com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService
+03-15 07:58:00.935  2014  2044 E AppPredictionPerUserService: Bad service name: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService
+03-15 07:58:00.936  2014  2044 E ContentSuggestionsPerUserService: Bad service name: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService
+03-15 07:58:00.997  2014  2141 E BackupPasswordManager: Unable to read backup pw version
+03-15 07:58:01.004  2014  2141 E BackupPasswordManager: Unable to read saved backup pw hash
+03-15 07:58:01.620  1799  1887 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:58:01.629  1799  2112 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:58:01.849  2918  2918 E MmTelFeatureConnection: ImsRegistrationCallbackAdapter: ImsRegistration is null
+03-15 07:58:01.883  2429  2429 E putmethod.lati: No implementation found for boolean com.google.android.apps.inputmethod.libs.trainingcache.tiresias.TiresiasNativePipe.nativeInit() (tried Java_com_google_android_apps_inputmethod_libs_trainingcache_tiresias_TiresiasNativePipe_nativeInit and Java_com_google_android_apps_inputmethod_libs_trainingcache_tiresias_TiresiasNativePipe_nativeInit__)
+03-15 07:58:02.337  2808  2808 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:02.343  2784  2784 E OverlaySController: Calling with an invalid UID, the interface will not work
+03-15 07:58:02.762  2391  2391 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+03-15 07:58:03.090  2391  2391 E WellbeingModel: Failed to register content observer for content://com.google.android.apps.wellbeing.api/actions: java.lang.SecurityException: Failed to find provider com.google.android.apps.wellbeing.api for user 0; expected to find a valid ContentProvider for this authority
+03-15 07:58:03.093  2391  2391 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+03-15 07:58:03.160  1799  1903 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:58:03.162  1799  2100 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:58:03.734  2429  3345 E FileOperationUtils: Cannot read from /data/user/0/com.google.android.inputmethod.latin/cache/tenor_categories.pb
+03-15 07:58:04.760  2706  3108 E WorkSourceUtil: Could not find package: com.google.android.gms.checkin
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: Retrieving snapshot for com.google.android.gms.playlog.uploader failed
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: java.util.concurrent.TimeoutException: Timed out waiting for Task
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at avmp.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):22)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at aomh.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):23)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at aomh.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):16)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at aomh.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):27)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at com.google.android.gms.clearcut.init.ClearcutInitChimeraIntentService.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):9)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at qme.onHandleIntent(:com.google.android.gms@202414022@20.24.14 (040700-319035315):12)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@202414022@20.24.14 (040700-319035315):2)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at qlx.onHandleIntent(:com.google.android.gms@202414022@20.24.14 (040700-319035315):4)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at cuo.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):5)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at cun.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):10)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:04.985  2706  3007 E PhenotypeFlagCommitter: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:05.091  2391  3270 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: Failed to get boot count.
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: java.util.concurrent.TimeoutException: Timed out waiting for Task
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at avmp.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):22)
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at rel.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):123)
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at rby.run(Unknown Source:0)
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):12)
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):7)
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:58:05.145  2567  3556 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:05.291  2391  2391 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+03-15 07:58:05.716  3042  3463 E SQLiteLog: (1) no such table: audio_genres
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: Error inserting title_key=H2LN2RN instance_id=null duration=10170 is_ringtone=1 album_artist=null orientation=null format=47362 height=null is_drm=0 bucket_display_name=ringtones is_audiobook=0 parent=19 volume_name=internal title_resource_uri=null date_modified=1595290754 composer=null _display_name=Perseus.ogg datetaken=null mime_type=audio/ogg is_notification=0 year=null _data=/system/product/media/audio/ringtones/Perseus.ogg _size=236343 is_alarm=0 title=Perseus track=null width=null is_music=0 group_id=-678450419 document_id=null artist_id=3 date_added=1647331085 is_podcast=0 album_id=2 original_document_id=null bucket_id=-2044634724 media_type=2 relative_path=null
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:879)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:88)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1599)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1468)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.MediaProvider.insertFile(MediaProvider.java:2713)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.MediaProvider.insertInternal(MediaProvider.java:3076)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.MediaProvider.insert(MediaProvider.java:2903)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.content.ContentProviderOperation.applyInternal(ContentProviderOperation.java:321)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.content.ContentProviderOperation.apply(ContentProviderOperation.java:304)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.content.ContentProvider.applyBatch(ContentProvider.java:2126)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.MediaProvider.applyBatch(MediaProvider.java:3302)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.content.ContentProvider.applyBatch(ContentProvider.java:2117)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.content.ContentResolver.applyBatch(ContentResolver.java:1865)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.applyPending(ModernMediaScanner.java:439)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.walkFileTree(ModernMediaScanner.java:274)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.run(ModernMediaScanner.java:245)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.scan.ModernMediaScanner.scanDirectory(ModernMediaScanner.java:166)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.MediaService.onScanVolume(MediaService.java:150)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.MediaService.onScanVolume(MediaService.java:131)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at com.android.providers.media.MediaService.onHandleIntent(MediaService.java:86)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:78)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:58:05.726  3042  3463 E SQLiteDatabase: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-15 07:58:05.768  3042  3463 E SQLiteLog: (1) no such table: audio_genres
+03-15 07:58:05.777  1747  3740 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:05.786  3042  3463 E SQLiteLog: (1) no such table: audio_genres
+03-15 07:58:05.816  1747  3749 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:05.967  1721  1726 E apexd   : Can't open /product/apex for reading : No such file or directory
+03-15 07:58:06.095  2014  2035 E GnssLocationProvider: android_location_GnssLocationProvider_set_agps_server: AGPS interface not supported
+03-15 07:58:06.150  2567  3759 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:06.346  2014  2043 E PackageManager: Optimistic bind failed.
+03-15 07:58:06.346  2014  2043 E PackageManager: java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+03-15 07:58:06.346  2014  2043 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.waitForBindLocked(InstantAppResolverConnection.java:161)
+03-15 07:58:06.346  2014  2043 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.bind(InstantAppResolverConnection.java:226)
+03-15 07:58:06.346  2014  2043 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.lambda$optimisticBind$0$InstantAppResolverConnection(InstantAppResolverConnection.java:256)
+03-15 07:58:06.346  2014  2043 E PackageManager: 	at com.android.server.pm.-$$Lambda$InstantAppResolverConnection$D-JKXi4qrYjnPQMOwj8UtfZenps.run(Unknown Source:2)
+03-15 07:58:06.346  2014  2043 E PackageManager: 	at android.os.Handler.handleCallback(Handler.java:883)
+03-15 07:58:06.346  2014  2043 E PackageManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+03-15 07:58:06.346  2014  2043 E PackageManager: 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:58:06.346  2014  2043 E PackageManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-15 07:58:07.089  2567  3458 E ActivityThread: Failed to find provider info for instantapp-dev-manager
+03-15 07:58:07.787  2567  2567 E GmsRequestQueue: Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+03-15 07:58:07.958  2014  2304 E memtrack: Couldn't load memtrack module
+03-15 07:58:08.551  1747  4206 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: [208] odm.getFile: File not found.: /data/user/0/com.google.android.apps.messaging/files/httpft_pending: open failed: ENOENT (No such file or directory)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	libcore.io.IoBridge.open(IoBridge.java:496)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	java.io.FileInputStream.<init>(FileInputStream.java:159)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	android.app.ContextImpl.openFileInput(ContextImpl.java:600)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	android.content.ContextWrapper.openFileInput(ContextWrapper.java:206)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	odm.getFile(SourceFile:51)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	odm.buildFiles(SourceFile:7)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	com.google.android.apps.messaging.rcsmigration.RcsStateProvider.buildRcsState(SourceFile:63)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	com.google.android.apps.messaging.rcsmigration.RcsStateProvider.getRcsState(SourceFile:6)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:6)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	com.google.android.aidl.BaseStub.onTransact(SourceFile:11)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	android.os.Binder.execTransactInternal(Binder.java:1021)
+03-15 07:58:09.225  3900  3987 E BugleRcsEngine: 	android.os.Binder.execTransact(Binder.java:994)
+03-15 07:58:09.561  4147  4276 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:09.792  3900  4294 E Bugle   : BuglePhoneNumberUtils: Not able to parse phone number MSISDN{x_x_x!x} for country US
+03-15 07:58:09.792  3900  4294 E Bugle   : Error type: NOT_A_NUMBER. The string supplied did not seem to be a phone number.
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at scj.b(SourceFile:271)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at glx.a(SourceFile:13)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at glr.e(SourceFile:52)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at glr.d(SourceFile:39)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at glr.a(SourceFile:63)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at glr.a(SourceFile:59)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at egm.a(SourceFile:83)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at frw.b(SourceFile:21)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at frw.a(SourceFile:8)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at com.google.android.apps.messaging.shared.datamodel.action.ExpireWapPushSiMessageAction.a(SourceFile:21)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at com.google.android.apps.messaging.shared.datamodel.action.ExpireWapPushSiMessageAction.executeAction(SourceFile:4)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at dyn.a(SourceFile:4)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at dxy.run(SourceFile:18)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:09.792  3900  4294 E Bugle   : 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:10.102  2391  3270 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: Error getting feature flag from config
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: java.lang.NullPointerException: Attempt to invoke interface method 'boolean gtb.a()' on a null object reference
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at ftq.a(PG:115)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at bql.call(PG:4)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at mfe.b(PG:4)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at mef.run(PG:5)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at mfc.run(PG:9)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at ihg.run(PG:11)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:10.118  2429  2496 E ConfigApiFlagGetter: 	at igq.run(PG:8)
+03-15 07:58:10.342  2567  4199 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-818113082>, App: com.google.android.gms, Service: ^^_account_id_^^
+03-15 07:58:10.342  2567  4199 E Auth    : rse: Long live credential not available.
+03-15 07:58:10.342  2567  4199 E Auth    : 	at gdf.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):18)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at gbo.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):124)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at cre.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):238)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at cre.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):47)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at cre.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):91)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at fxy.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at fye.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):8)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at fye.c(:com.google.android.gms@202414022@20.24.14 (040700-319035315):15)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at fye.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):1)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at fye.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):2)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at fye.f(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at awqe.call(Unknown Source:0)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at soy.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):12)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at soy.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):7)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at sux.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:58:10.342  2567  4199 E Auth    : 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:10.358  4029  4228 E CarrierServices: [243] cqf.a: Invalid signature found for com.android.contacts: E39B7BFBE0A67D78292F6CC62E06CA27A2EBF255
+03-15 07:58:10.373  4029  4228 E CarrierServices: [243] cqf.a: Invalid signature found for com.android.contacts: E39B7BFBE0A67D78292F6CC62E06CA27A2EBF255
+03-15 07:58:10.401  2567  3421 E awpr    : Exception occurred while getting SettingsStore instance.
+03-15 07:58:10.401  2567  3421 E awpr    : java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+03-15 07:58:10.401  2567  3421 E awpr    : 	at java.util.concurrent.FutureTask.report(FutureTask.java:123)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at java.util.concurrent.FutureTask.get(FutureTask.java:207)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at awpr.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):3)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at awpr.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):22)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at awky.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):7)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at awky.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):20)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at aabt.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):9)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at bnin.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):2)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at soy.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):12)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at soy.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):7)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at sux.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:10.401  2567  3421 E awpr    : Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+03-15 07:58:10.401  2567  3421 E awpr    : 	at fye.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):3)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at fxy.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at fye.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):8)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at fye.c(:com.google.android.gms@202414022@20.24.14 (040700-319035315):15)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at fye.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):1)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at fye.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):2)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at fye.f(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at awqe.call(Unknown Source:0)
+03-15 07:58:10.401  2567  3421 E awpr    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:10.401  2567  3421 E awpr    : 	... 6 more
+03-15 07:58:11.050  1747  4393 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:11.068  2567  2567 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:11.076  2567  2567 E BeaconBle: Missing BluetoothAdapter [CONTEXT service_id=111 ]
+03-15 07:58:11.428  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:11.629  2567  2567 E BeaconBle: Scan couldn't start for Places [CONTEXT service_id=111 ]
+03-15 07:58:12.141  4471  4471 E ConfigUpdater: ignoring update request
+03-15 07:58:12.167  4471  4471 E ConfigUpdater: ignoring update request
+03-15 07:58:12.168  1747  4495 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:12.175  4471  4471 E ConfigUpdater: ignoring update request
+03-15 07:58:12.251  4471  4471 E ConfigUpdater: ignoring update request
+03-15 07:58:12.568  1747  4565 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: SpamListSync - Unable to fetch spam numbers
+03-15 07:58:12.822  2706  3751 E TelephonySpam: ckdr: UNAVAILABLE
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at ckdq.c(:com.google.android.gms@202414022@20.24.14 (040700-319035315):3)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at sjo.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):48)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at avot.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):24)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at com.google.android.gms.telephonyspam.sync.TelephonySpamChimeraService.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):13)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at aeme.call(Unknown Source:0)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at soy.b(:com.google.android.gms@202414022@20.24.14 (040700-319035315):12)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at soy.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):7)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at sux.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: Caused by: javax.net.ssl.SSLHandshakeException: SSL handshake aborted: ssl=0xd93611f8: I/O error during system call, Connection reset by peer
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_do_handshake(Native Method)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at com.google.android.gms.org.conscrypt.NativeSsl.doHandshake(:com.google.android.gms@202414022@20.24.14 (040700-319035315):6)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.startHandshake(:com.google.android.gms@202414022@20.24.14 (040700-319035315):16)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at arcm.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):22)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at arcm.createSocket(:com.google.android.gms@202414022@20.24.14 (040700-319035315):9)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at ckpj.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):1)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at ckoz.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):30)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	at cknl.run(:com.google.android.gms@202414022@20.24.14 (040700-319035315):2)
+03-15 07:58:12.822  2706  3751 E TelephonySpam: 	... 6 more
+03-15 07:58:13.428  2784  4664 E LibraryVersion: Failed to get app version for libraryName: firebase-iid
+03-15 07:58:13.508  1747  4678 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:14.479  2706  3007 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/current_modules_init.pb: open failed: ENOENT (No such file or directory)
+03-15 07:58:14.528  2706  4634 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.car [CONTEXT service_id=231 ]
+03-15 07:58:14.608  2706  4634 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.games [CONTEXT service_id=231 ]
+03-15 07:58:14.609  2706  4634 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.mobile_data_plan [CONTEXT service_id=231 ]
+03-15 07:58:14.615  2706  4634 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.signin [CONTEXT service_id=231 ]
+03-15 07:58:14.616  2706  4634 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.udc [CONTEXT service_id=231 ]
+03-15 07:58:14.838  2567  3060 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:14.900  2706  3195 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: [261] odm.getFile: File not found.: /data/user/0/com.google.android.apps.messaging/files/httpft_pending: open failed: ENOENT (No such file or directory)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	libcore.io.IoBridge.open(IoBridge.java:496)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	java.io.FileInputStream.<init>(FileInputStream.java:159)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	android.app.ContextImpl.openFileInput(ContextImpl.java:600)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	android.content.ContextWrapper.openFileInput(ContextWrapper.java:206)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	odm.getFile(SourceFile:51)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	odm.buildFiles(SourceFile:7)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	com.google.android.apps.messaging.rcsmigration.RcsStateProvider.buildRcsState(SourceFile:63)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	com.google.android.apps.messaging.rcsmigration.RcsStateProvider.getRcsState(SourceFile:6)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:6)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	com.google.android.aidl.BaseStub.onTransact(SourceFile:11)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	android.os.Binder.execTransactInternal(Binder.java:1021)
+03-15 07:58:15.295  3900  4357 E BugleRcsEngine: 	android.os.Binder.execTransact(Binder.java:994)
+03-15 07:58:15.301  1747  4810 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:15.329  1747  4772 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:16.202  4820  4820 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:16.767  4863  4863 E YouTube : flushBinderConnectionCallbacks is unverified on SDK 29
+03-15 07:58:16.833  4893  4893 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:16.840  4893  4893 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:16.909  1747  4950 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:17.001  1747  4987 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:17.050  4863  4934 E GEL_DELAYED_EVENT_DEBUG: Failed delayed event dispatch, no dispatchers.
+03-15 07:58:17.787  4954  4954 E CAR.TEL.Service: Failed to bind to InCallService [CONTEXT service_id=13 ]
+03-15 07:58:17.834  1747  5126 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:17.880  1747  5133 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:18.235  1747  5147 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:19.014  2567  2567 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:19.132  2706  5308 E GmsRequestQueue: Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+03-15 07:58:19.387  3245  3245 E GooglePartnerSetup: Phenotype client.register: true
+03-15 07:58:19.518  1747  5380 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:19.666  2706  3007 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 1056768)
+03-15 07:58:19.999  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:20.006  2706  3007 E gle.android.gm: Invalid ID 0x00000000.
+03-15 07:58:20.071  2706  3007 E gle.android.gm: Invalid ID 0x00000000.
+03-15 07:58:20.758  2784  3078 E ModelDnldProcssHelpr: pending download info for pending_hotword_model_download_info is null
+03-15 07:58:20.781  2784  3287 E DownloadManagerWrapper: Can't find downloadId=8
+03-15 07:58:20.820  2706  5299 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+03-15 07:58:20.901  2706  3684 E WakeLock: DG:service ** IS FORCE-RELEASED ON TIMEOUT **
+03-15 07:58:21.105  1747  5447 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:21.333  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:21.491  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:21.676  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:21.681  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:22.220  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:22.278  2567  3421 E WakeLock: NlpWakeLock ** IS FORCE-RELEASED ON TIMEOUT **
+03-15 07:58:22.883  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: Can not find ARP file or impossible to read file.
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: java.io.FileNotFoundException: proc/net/arp: open failed: EACCES (Permission denied)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at libcore.io.IoBridge.open(IoBridge.java:496)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at java.io.FileInputStream.<init>(FileInputStream.java:159)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at java.io.FileReader.<init>(FileReader.java:72)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.search.core.google.a.q.b(SourceFile:71)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.search.core.google.a.q.a(SourceFile:23)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.staticplugins.g.g.a(Unknown Source:1)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.d.call(Unknown Source:2)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.f.run(SourceFile:16)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.n.run(Unknown Source:3)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at libcore.io.Linux.open(Native Method)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:252)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7255)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	at libcore.io.IoBridge.open(IoBridge.java:482)
+03-15 07:58:22.947  2784  3347 E LocalNetworkId: 	... 15 more
+03-15 07:58:24.051  1747  5500 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:25.106  2391  3270 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: Exception occurred while executing network request.
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: java.net.SocketTimeoutException: failed to connect to g.tenor.com/2001::a27d:1183 (port 443) from /fec0::a4d4:7204:c2e2:4f99 (port 40482) after 10000ms
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:191)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at libcore.io.IoBridge.connect(IoBridge.java:135)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.net.Socket.connect(Socket.java:621)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at opu.a(PG:8)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at omu.a(PG:17)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at omz.a(PG:80)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at omz.a(PG:27)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at omz.a(PG:13)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at oms.a(PG:7)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onj.a(PG:29)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onj.a(PG:18)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at ome.a(PG:16)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onj.a(PG:29)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onj.a(PG:18)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onb.a(PG:24)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onj.a(PG:29)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onl.a(PG:11)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onj.a(PG:29)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at onj.a(PG:18)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at oll.f(PG:83)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at oll.b(PG:17)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at eul.a(PG:37)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at ety.a(PG:21)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at eqo.b(PG:24)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at eqj.a(PG:15)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at fea.call(Unknown Source:2)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at mfe.b(PG:4)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at mef.run(PG:5)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at mfc.run(PG:9)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at ihe.run(PG:26)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:25.909  2429  3417 E HttpClientWrapper: 	at igq.run(PG:8)
+03-15 07:58:25.955  2014  2111 E ReportEncoder: No watchlist hash
+03-15 07:58:27.158  1747  5504 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:27.914  1747  5129 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:27.916  1747  5492 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:30.138  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:30.141  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:30.143  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:30.146  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:30.148  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:31.505  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:31.510  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: Task COMMON_BROADCAST_MESSAGE_RECEIVED failed or timed out. Client 12245808817995785 disconnecting from SearchService!
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: java.util.concurrent.CancellationException: Task was cancelled.
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.c.b(SourceFile:103)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.c.get(SourceFile:81)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.da.a(SourceFile:1)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.bh.a(SourceFile:34)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.bj.run(SourceFile:4)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at com.google.android.apps.gsa.shared.util.c.b.be.run(SourceFile:2)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at android.os.Handler.handleCallback(Handler.java:883)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at android.app.ActivityThread.main(ActivityThread.java:7356)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at java.lang.reflect.Method.invoke(Native Method)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+03-15 07:58:31.897  2784  2784 E SearchServiceStarter: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+03-15 07:58:31.909  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:31.946  2936  5562 E MultiDisplayService: invalid parameters for add/modify display
+03-15 07:58:32.065  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:32.418  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:32.469  5603  5656 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:32.562  1747  5661 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:32.676  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:32.846  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:33.296  4863  5132 E YouTube : Failed to fetch settings
+03-15 07:58:33.296  4863  5132 E YouTube : java.lang.InterruptedException
+03-15 07:58:33.296  4863  5132 E YouTube : 	at anki.get(SourceFile:89)
+03-15 07:58:33.296  4863  5132 E YouTube : 	at dyv.a(SourceFile:5)
+03-15 07:58:33.296  4863  5132 E YouTube : 	at wsr.a(SourceFile:7)
+03-15 07:58:33.296  4863  5132 E YouTube : 	at com.google.android.libraries.youtube.common.gcm.YouTubeGcmTaskService.a(SourceFile:18)
+03-15 07:58:33.296  4863  5132 E YouTube : 	at com.google.android.libraries.youtube.common.gcore.gcoreclient.gcm.impl.GcmTaskServiceDelegator.a(SourceFile:11)
+03-15 07:58:33.296  4863  5132 E YouTube : 	at qbk.run(SourceFile:18)
+03-15 07:58:33.296  4863  5132 E YouTube : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:33.296  4863  5132 E YouTube : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:33.296  4863  5132 E YouTube : 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:33.556  2706  3751 E SQLiteLog: (5) statement aborts at 1: [PRAGMA journal_mode=TRUNCATE] database is locked
+03-15 07:58:33.843  2567  2567 E BluetoothAdapter: Bluetooth binder is null
+03-15 07:58:33.865  2567  5663 E NetworkScheduler.ATC: Called cancelTask for already completed task com.google.android.gms/.phenotype.service.sync.PackageUpdateTaskService{u=0 tag="PhenotypeCatchupPackageUpdate-Timeout" trigger=window{start=82800s,end=86400s,earliest=-6720797s,latest=-6717197s} requirements=[NET_CONNECTED] attributes=[PERSISTED] scheduled=-6803597s last_run=0s jid=N/A status=ACTIVE retries=0 client_lib=GMS_TASK_SCHEDULER-202414000} :1 [CONTEXT service_id=218 ]
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: Can not find ARP file or impossible to read file.
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: java.io.FileNotFoundException: proc/net/arp: open failed: EACCES (Permission denied)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at libcore.io.IoBridge.open(IoBridge.java:496)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at java.io.FileInputStream.<init>(FileInputStream.java:159)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at java.io.FileReader.<init>(FileReader.java:72)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.search.core.google.a.q.b(SourceFile:71)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.search.core.google.a.q.a(SourceFile:23)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.staticplugins.g.g.a(Unknown Source:1)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.d.call(Unknown Source:2)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.f.run(SourceFile:16)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.n.run(Unknown Source:3)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at libcore.io.Linux.open(Native Method)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:252)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7255)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	at libcore.io.IoBridge.open(IoBridge.java:482)
+03-15 07:58:34.708  2784  3168 E LocalNetworkId: 	... 15 more
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: Error downloading doodle.
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: com.google.android.apps.gsa.shared.o.e: Error code: 655371
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.libraries.gsa.e.a.bp.a(SourceFile:28)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.libraries.gsa.e.a.bp.a(SourceFile:15)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.libraries.gsa.e.a.bx.run(Unknown Source:11)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.libraries.gsa.m.a.j.run(Unknown Source:2)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.apps.gsa.shared.util.c.b.cf.a(SourceFile:2)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.apps.gsa.shared.util.c.b.cg.run(SourceFile:5)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:35.605  2784  3393 E RefreshDoodleConfigTask: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:58:37.060  2567  3060 E WakeLock: NlpWakeLock ** IS FORCE-RELEASED ON TIMEOUT **
+03-15 07:58:37.216  3900  3997 E FirebaseInstanceId: Token retrieval failed: SERVICE_NOT_AVAILABLE
+03-15 07:58:37.455  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:37.457  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:37.621  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:37.624  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:38.150  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:38.176  3900  4160 E Bugle   : BugleFirebaseInstanceIDManagerImpl: Failed to refresh firebase instance ID
+03-15 07:58:38.176  3900  4160 E Bugle   : java.io.IOException: SERVICE_NOT_AVAILABLE
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at com.google.firebase.iid.FirebaseInstanceId.a(SourceFile:68)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at com.google.firebase.iid.FirebaseInstanceId.b(SourceFile:60)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at fep.c(SourceFile:20)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at feq.call(Unknown Source:2)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at uba.b(SourceFile:4)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at tzx.run(SourceFile:5)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at uay.run(SourceFile:9)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:38.176  3900  4160 E Bugle   : 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:38.296  1747  5804 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:39.012  1747  5805 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:40.576  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:40.592  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:41.754  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:41.759  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:42.806  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:43.222  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:43.403  2784  4274 E FirebaseInstanceId: Token retrieval failed without exception message. Will retry token retrieval
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: Task COMMON_BROADCAST_MESSAGE_RECEIVED failed or timed out. Client 12245808817995789 disconnecting from SearchService!
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: java.util.concurrent.CancellationException: Task was cancelled.
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.c.b(SourceFile:103)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.c.get(SourceFile:81)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.da.a(SourceFile:1)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.bh.a(SourceFile:34)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at com.google.common.s.a.bj.run(SourceFile:4)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at com.google.android.apps.gsa.shared.util.c.b.be.run(SourceFile:2)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at android.os.Handler.handleCallback(Handler.java:883)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at android.app.ActivityThread.main(ActivityThread.java:7356)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at java.lang.reflect.Method.invoke(Native Method)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+03-15 07:58:43.680  2784  2784 E SearchServiceStarter: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+03-15 07:58:44.271  5810  5810 E CAR.TEL.Service: Failed to bind to InCallService [CONTEXT service_id=13 ]
+03-15 07:58:46.133  1747  5875 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:58:47.201  4863  5034 E FirebaseInstanceId: Token retrieval failed: SERVICE_NOT_AVAILABLE
+03-15 07:58:47.544  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:48.122  1883  1883 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+03-15 07:58:48.123  1891  1891 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: #onNonFatalError: com.google.android.apps.gsa.shared.speech.c.j: errorCode: 65572, engine: 2
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: com.google.android.apps.gsa.shared.util.b.e: ACS.ResponseHandler: #onNonFatalError: com.google.android.apps.gsa.shared.speech.c.j: errorCode: 65572, engine: 2
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.a(SourceFile:40)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.f(SourceFile:10)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.g.ai.a(SourceFile:7)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.do.a.f.a(SourceFile:12)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.q.c(SourceFile:64)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.n.run(SourceFile:20)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:52.989  2784  3623 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: #onNonFatalError: com.google.android.apps.gsa.shared.speech.c.o: errorCode: 65561, engine: 2
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: com.google.android.apps.gsa.shared.util.b.e: ACS.ResponseHandler: #onNonFatalError: com.google.android.apps.gsa.shared.speech.c.o: errorCode: 65561, engine: 2
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.a(SourceFile:40)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.f(SourceFile:10)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.g.ai.a(SourceFile:7)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.do.a.f.b(SourceFile:15)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.o.a(SourceFile:33)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.v.c.a.d.a(SourceFile:8)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:73)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:30)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:58)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.l.c(SourceFile:15)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.n.run(SourceFile:20)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:52.991  2784  3120 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:58:53.013  2784  5796 E ACS.LocationHelper: Failed to get latest location from GmsCore,fails back to LocationOracle cached location.
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: Can not find ARP file or impossible to read file.
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: java.io.FileNotFoundException: proc/net/arp: open failed: EACCES (Permission denied)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at libcore.io.IoBridge.open(IoBridge.java:496)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at java.io.FileInputStream.<init>(FileInputStream.java:159)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at java.io.FileReader.<init>(FileReader.java:72)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.search.core.google.a.q.b(SourceFile:71)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.search.core.google.a.q.a(SourceFile:23)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.staticplugins.g.g.a(Unknown Source:1)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.d.call(Unknown Source:2)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.f.run(SourceFile:16)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.n.run(Unknown Source:3)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at libcore.io.Linux.open(Native Method)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:252)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7255)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	at libcore.io.IoBridge.open(IoBridge.java:482)
+03-15 07:58:53.020  2784  3618 E LocalNetworkId: 	... 15 more
+03-15 07:58:53.615  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:53.617  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:53.619  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:53.622  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:53.625  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:53.627  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:53.630  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:53.632  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:54.068  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:54.713  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:55.136  2391  3270 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+03-15 07:58:59.381  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:58:59.383  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:01.094  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:01.580  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:01.584  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:02.530  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:02.537  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: #onNonFatalError: com.google.android.apps.gsa.shared.speech.c.o: errorCode: 65561, engine: 2
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: com.google.android.apps.gsa.shared.util.b.e: ACS.ResponseHandler: #onNonFatalError: com.google.android.apps.gsa.shared.speech.c.o: errorCode: 65561, engine: 2
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.a(SourceFile:40)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.f(SourceFile:10)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.g.ai.a(SourceFile:7)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.do.a.f.b(SourceFile:15)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.o.a(SourceFile:33)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.v.c.a.d.a(SourceFile:8)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:73)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:30)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:58)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.l.c(SourceFile:15)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.n.run(SourceFile:20)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:59:04.712  2784  5484 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:59:04.717  2784  3120 E ACS.LocationHelper: Failed to get latest location from GmsCore,fails back to LocationOracle cached location.
+03-15 07:59:04.723  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: Can not find ARP file or impossible to read file.
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: java.io.FileNotFoundException: proc/net/arp: open failed: EACCES (Permission denied)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at libcore.io.IoBridge.open(IoBridge.java:496)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at java.io.FileInputStream.<init>(FileInputStream.java:159)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at java.io.FileReader.<init>(FileReader.java:72)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.search.core.google.a.q.b(SourceFile:71)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.search.core.google.a.q.a(SourceFile:23)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.staticplugins.g.g.a(Unknown Source:1)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.d.call(Unknown Source:2)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.f.run(SourceFile:16)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.v.d.a.n.run(Unknown Source:3)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at libcore.io.Linux.open(Native Method)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:252)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7255)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	at libcore.io.IoBridge.open(IoBridge.java:482)
+03-15 07:59:04.727  2784  5483 E LocalNetworkId: 	... 15 more
+03-15 07:59:04.735  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:05.768  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:07.554  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:07.577  3900  3997 E FirebaseInstanceId: Token retrieval failed: SERVICE_NOT_AVAILABLE
+03-15 07:59:13.261  1747  5917 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:13.415  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.743  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.748  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.755  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.764  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.771  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.774  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.777  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.780  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.783  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:14.933  1827  1827 E adbd    : failed to connect to socket 'tcp:7912': Connection refused
+03-15 07:59:15.506  1827  1827 E adbd    : failed to connect to socket 'tcp:7912': Connection refused
+03-15 07:59:16.114  5993  5993 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-15 07:59:16.114  5993  5993 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-15 07:59:16.115  5993  5993 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-15 07:59:16.175  1747  5998 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:16.696  2014  2039 E system_server: Invalid ID 0x00000000.
+03-15 07:59:17.163  1799  2100 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:59:17.166  1799  2100 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:59:18.570  1747  6101 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:19.488  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:19.496  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:19.713  1747  6106 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:20.676  1747  6111 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:21.186  6133  6133 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-15 07:59:21.186  6133  6133 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-15 07:59:21.186  6133  6133 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-15 07:59:21.401  6146  6146 E hub.uiautomato: Unknown bits set in runtime_flags: 0x8000
+03-15 07:59:23.026  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: #onFatalError: com.google.android.apps.gsa.shared.speech.c.k: errorCode: 65545, engine: 2
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: com.google.android.apps.gsa.shared.util.b.e: ACS.ResponseHandler: #onFatalError: com.google.android.apps.gsa.shared.speech.c.k: errorCode: 65545, engine: 2
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.a(SourceFile:40)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.f(SourceFile:10)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.g.ai.b(SourceFile:8)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.do.a.f.b(SourceFile:18)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.o.a(SourceFile:33)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.v.c.a.d.a(SourceFile:8)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:73)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:30)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:58)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.l.c(SourceFile:15)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.n.run(SourceFile:20)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:59:23.050  2784  3393 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:59:24.767  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:24.784  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:25.866  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:26.510  1747  6193 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:27.856  2014  2039 E system_server: Invalid ID 0x00000000.
+03-15 07:59:27.863  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:27.863  1799  2415 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:59:27.865  1799  2415 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:59:27.893  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:28.005  6146  6146 E AndroidJUnitRunner: An unhandled exception was thrown by the app.
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: Exception encountered by: com.github.uiautomator.ToastActivity@dcd77e. Dumping thread state to outputs and pining for the fjords.
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@f235ffb -- permission denied for window type 2038
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:931)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:387)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:95)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at com.github.uiautomator.FloatView.show(FloatView.java:109)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at com.github.uiautomator.ToastActivity.onCreate(ToastActivity.java:30)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.Activity.performCreate(Activity.java:7802)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.Activity.performCreate(Activity.java:7791)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1299)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:711)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread.main(ActivityThread.java:7356)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at java.lang.reflect.Method.invoke(Native Method)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+03-15 07:59:28.016  6146  6146 E MonitoringInstr: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[Signal Catcher,5,system]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[Binder:6146_2,5,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[SoundPoolThread,5,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[HeapTaskDaemon,5,system]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[main,5,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     dalvik.system.VMStack.getThreadStackTrace(Native Method)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.getStackTrace(Thread.java:1720)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.getAllStackTraces(Thread.java:1796)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     androidx.test.runner.MonitoringInstrumentation.getThreadState(MonitoringInstrumentation.java:680)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     androidx.test.runner.MonitoringInstrumentation.dumpThreadStateToOutputs(MonitoringInstrumentation.java:675)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     androidx.test.runner.MonitoringInstrumentation.onException(MonitoringInstrumentation.java:669)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     androidx.test.runner.AndroidJUnitRunner.onException(AndroidJUnitRunner.java:554)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3267)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.os.Handler.dispatchMessage(Handler.java:107)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.os.Looper.loop(Looper.java:214)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.app.ActivityThread.main(ActivityThread.java:7356)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.reflect.Method.invoke(Native Method)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[ReferenceQueueDaemon,5,system]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Object.wait(Native Method)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Object.wait(Object.java:442)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Object.wait(Object.java:568)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:215)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Daemons$Daemon.run(Daemons.java:137)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[NanoHttpd Request Processor (#1),5,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.net.SocketInputStream.socketRead0(Native Method)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.net.SocketInputStream.socketRead(SocketInputStream.java:119)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.net.SocketInputStream.read(SocketInputStream.java:176)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.net.SocketInputStream.read(SocketInputStream.java:144)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.io.BufferedInputStream.fill(BufferedInputStream.java:248)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.io.BufferedInputStream.read1(BufferedInputStream.java:288)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.io.BufferedInputStream.read(BufferedInputStream.java:347)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:881)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:192)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[SoundPool,5,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[RenderThread,7,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[Profile Saver,5,system]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[Binder:6146_1,5,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[NanoHttpd Main Listener,5,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     libcore.io.Linux.poll(Native Method)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     libcore.io.ForwardingOs.poll(ForwardingOs.java:169)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     libcore.io.BlockGuardOs.poll(BlockGuardOs.java:261)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     libcore.io.ForwardingOs.poll(ForwardingOs.java:169)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     android.system.Os.poll(Os.java:428)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     libcore.io.IoBridge.poll(IoBridge.java:680)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.net.PlainSocketImpl.socketAccept(PlainSocketImpl.java:194)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:451)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.net.ServerSocket.implAccept(ServerSocket.java:547)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.net.ServerSocket.accept(ServerSocket.java:515)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     fi.iki.elonen.NanoHTTPD$ServerRunnable.run(NanoHTTPD.java:1769)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[FinalizerWatchdogDaemon,5,system]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.sleep(Native Method)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.sleep(Thread.java:440)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.sleep(Thread.java:356)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Daemons$FinalizerWatchdogDaemon.sleepForMillis(Daemons.java:383)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Daemons$FinalizerWatchdogDaemon.waitForFinalization(Daemons.java:411)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:323)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Daemons$Daemon.run(Daemons.java:137)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[Jit thread pool worker thread 0,5,main]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:   Thread[FinalizerDaemon,5,system]
+03-15 07:59:28.022  6146  6146 E THREAD_STATE:    
+03-15 07:59:28.022  6146  6146 E MonitoringInstr: Dying now...
+--------- beginning of crash
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: FATAL EXCEPTION: main
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: Process: com.github.uiautomator, PID: 6146
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.github.uiautomator/com.github.uiautomator.ToastActivity}: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@f235ffb -- permission denied for window type 2038
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3270)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7356)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@f235ffb -- permission denied for window type 2038
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:931)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:387)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:95)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at com.github.uiautomator.FloatView.show(FloatView.java:109)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at com.github.uiautomator.ToastActivity.onCreate(ToastActivity.java:30)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7802)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:7791)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1299)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:711)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+03-15 07:59:28.023  6146  6146 E AndroidRuntime: 	... 11 more
+03-15 07:59:28.023  6146  6146 E AndroidJUnitRunner: An unhandled exception was thrown by the app.
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: Exception encountered by: Thread[main,5,main]. Dumping thread state to outputs and pining for the fjords.
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.github.uiautomator/com.github.uiautomator.ToastActivity}: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@f235ffb -- permission denied for window type 2038
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3270)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread.main(ActivityThread.java:7356)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at java.lang.reflect.Method.invoke(Native Method)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@f235ffb -- permission denied for window type 2038
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:931)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:387)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:95)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at com.github.uiautomator.FloatView.show(FloatView.java:109)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at com.github.uiautomator.ToastActivity.onCreate(ToastActivity.java:30)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.Activity.performCreate(Activity.java:7802)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.Activity.performCreate(Activity.java:7791)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1299)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:711)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+03-15 07:59:28.032  6146  6146 E MonitoringInstr: 	... 11 more
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[Signal Catcher,5,system]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[Binder:6146_2,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[SoundPoolThread,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[HeapTaskDaemon,5,system]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[main,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     dalvik.system.VMStack.getThreadStackTrace(Native Method)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.getStackTrace(Thread.java:1720)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.getAllStackTraces(Thread.java:1796)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     androidx.test.runner.MonitoringInstrumentation.getThreadState(MonitoringInstrumentation.java:680)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     androidx.test.runner.MonitoringInstrumentation.dumpThreadStateToOutputs(MonitoringInstrumentation.java:675)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     androidx.test.runner.MonitoringInstrumentation.onException(MonitoringInstrumentation.java:669)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     androidx.test.runner.AndroidJUnitRunner.onException(AndroidJUnitRunner.java:554)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     androidx.test.runner.MonitoringInstrumentation$3.uncaughtException(MonitoringInstrumentation.java:271)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.dispatchUncaughtException(Thread.java:2187)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[ReferenceQueueDaemon,5,system]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Object.wait(Native Method)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Object.wait(Object.java:442)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Object.wait(Object.java:568)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:215)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Daemons$Daemon.run(Daemons.java:137)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[NanoHttpd Request Processor (#1),5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.net.SocketInputStream.socketRead0(Native Method)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.net.SocketInputStream.socketRead(SocketInputStream.java:119)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.net.SocketInputStream.read(SocketInputStream.java:176)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.net.SocketInputStream.read(SocketInputStream.java:144)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.io.BufferedInputStream.fill(BufferedInputStream.java:248)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.io.BufferedInputStream.read1(BufferedInputStream.java:288)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.io.BufferedInputStream.read(BufferedInputStream.java:347)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:881)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:192)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[SoundPool,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[RenderThread,7,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[Profile Saver,5,system]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[Binder:6146_1,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[NanoHttpd Main Listener,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     libcore.io.Linux.poll(Native Method)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     libcore.io.ForwardingOs.poll(ForwardingOs.java:169)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     libcore.io.BlockGuardOs.poll(BlockGuardOs.java:261)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     libcore.io.ForwardingOs.poll(ForwardingOs.java:169)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     android.system.Os.poll(Os.java:428)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     libcore.io.IoBridge.poll(IoBridge.java:680)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.net.PlainSocketImpl.socketAccept(PlainSocketImpl.java:194)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:451)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.net.ServerSocket.implAccept(ServerSocket.java:547)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.net.ServerSocket.accept(ServerSocket.java:515)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     fi.iki.elonen.NanoHTTPD$ServerRunnable.run(NanoHTTPD.java:1769)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[FinalizerWatchdogDaemon,5,system]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.sleep(Native Method)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.sleep(Thread.java:440)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.sleep(Thread.java:356)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Daemons$FinalizerWatchdogDaemon.sleepForMillis(Daemons.java:383)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Daemons$FinalizerWatchdogDaemon.waitForFinalization(Daemons.java:411)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:323)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Daemons$Daemon.run(Daemons.java:137)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[Jit thread pool worker thread 0,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[FinalizerDaemon,5,system]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Object.wait(Native Method)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Object.wait(Object.java:442)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:190)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:211)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:271)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Daemons$Daemon.run(Daemons.java:137)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     java.lang.Thread.run(Thread.java:919)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[UiAutomation,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     android.os.MessageQueue.nativePollOnce(Native Method)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     android.os.MessageQueue.next(MessageQueue.java:336)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     android.os.Looper.loop(Looper.java:174)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     android.os.HandlerThread.run(HandlerThread.java:67)
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[Binder:6146_3,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE: 
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:   Thread[InstrumentationConnectionThread,5,main]
+03-15 07:59:28.036  6146  6146 E THREAD_STATE:     a
+03-15 07:59:28.036  6146  6146 E MonitoringInstr: Dying now...
+03-15 07:59:28.773  6212  6212 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-15 07:59:28.773  6212  6212 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-15 07:59:28.773  6212  6212 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-15 07:59:28.789  1799  2100 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:59:28.792  1799  1887 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+03-15 07:59:28.905  6226  6226 E hub.uiautomato: Unknown bits set in runtime_flags: 0x8000
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: #onFatalError: com.google.android.apps.gsa.shared.speech.c.k: errorCode: 65545, engine: 2
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: com.google.android.apps.gsa.shared.util.b.e: ACS.ResponseHandler: #onFatalError: com.google.android.apps.gsa.shared.speech.c.k: errorCode: 65545, engine: 2
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.a(SourceFile:40)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.b.f.f(SourceFile:10)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.g.ai.b(SourceFile:8)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.staticplugins.do.a.f.b(SourceFile:18)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.o.a(SourceFile:33)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.v.c.a.d.a(SourceFile:8)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:73)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:30)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.speech.m.a.g.a(SourceFile:58)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.l.c(SourceFile:15)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.s3.n.run(SourceFile:20)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.f.run(Unknown Source:3)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.bj.run(SourceFile:3)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at java.lang.Thread.run(Thread.java:919)
+03-15 07:59:34.757  2784  5485 E ACS.ResponseHandler: 	at com.google.android.apps.gsa.shared.util.c.b.m.run(SourceFile:6)
+03-15 07:59:34.819  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:35.248  1747  6270 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:37.349  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:38.222  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:38.226  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:38.230  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:38.232  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:38.235  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:38.238  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:39.290  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:41.272  1747  6320 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:43.413  2784  4274 E FirebaseInstanceId: Token retrieval failed without exception message. Will retry token retrieval
+03-15 07:59:44.326  1747  6323 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:47.253  4863  5034 E FirebaseInstanceId: Token retrieval failed: SERVICE_NOT_AVAILABLE
+03-15 07:59:47.260  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:48.138  1883  1883 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+03-15 07:59:48.171  1891  1891 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+03-15 07:59:49.802  1747  6327 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 07:59:50.156  5219  5333 E DG      : FSC error [CONTEXT service_id=25 ]
+03-15 07:59:50.156  5219  5333 E DG      : javax.net.ssl.SSLHandshakeException: SSL handshake aborted: ssl=0xd935f548: I/O error during system call, Connection reset by peer
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_do_handshake(Native Method)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.google.android.gms.org.conscrypt.NativeSsl.doHandshake(:com.google.android.gms@202414022@20.24.14 (040700-319035315):6)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.startHandshake(:com.google.android.gms@202414022@20.24.14 (040700-319035315):16)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+03-15 07:59:50.156  5219  5333 E DG      : 	at vws.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):17)
+03-15 07:59:50.156  5219  5333 E DG      : 	at vws.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):9)
+03-15 07:59:50.156  5219  5333 E DG      : 	at vym.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):16)
+03-15 07:59:50.156  5219  5333 E DG      : 	at vym.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):15)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.google.android.gms.droidguard.DroidGuardChimeraService.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):32)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.google.android.gms.droidguard.DroidGuardChimeraService.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):71)
+03-15 07:59:50.156  5219  5333 E DG      : 	at com.google.android.gms.framework.tracing.wrapper.TracingIntentService.onHandleIntent(:com.google.android.gms@202414022@20.24.14 (040700-319035315):1)
+03-15 07:59:50.156  5219  5333 E DG      : 	at crt.handleMessage(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+03-15 07:59:50.156  5219  5333 E DG      : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-15 07:59:50.156  5219  5333 E DG      : 	at android.os.Looper.loop(Looper.java:214)
+03-15 07:59:50.156  5219  5333 E DG      : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-15 07:59:50.581  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:51.228  5219  6329 E WakeLock: DG:service ** IS FORCE-RELEASED ON TIMEOUT **
+03-15 07:59:59.438  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:59.454  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 07:59:59.490  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:07.477  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:17.465  1747  6353 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 08:00:20.374  1747  6356 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 08:00:21.079  1747  6358 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 08:00:23.532  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:25.867  1747  6450 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 08:00:31.283  1747  6453 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 08:00:34.593  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:37.660  3900  3997 E FirebaseInstanceId: Token retrieval failed: SERVICE_NOT_AVAILABLE
+03-15 08:00:38.591  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:38.598  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:47.300  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:47.302  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:48.153  1883  1883 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+03-15 08:00:48.202  1891  1891 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+03-15 08:00:51.596  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:00:54.977  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:01:02.065  1747  6469 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 08:01:09.473  1747  6479 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 08:01:10.120  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:01:10.125  2014  2043 E memtrack: Couldn't load memtrack module
+03-15 08:01:12.504  1747  6481 E ResolverController: No valid NAT64 prefix (100, <unspecified>/0)
+03-15 08:01:13.454  2784  4274 E FirebaseInstanceId: Token retrieval failed without exception message. Will retry token retrieval
+03-15 08:01:14.372  2014  2052 E EGL_emulation: eglQueryContext 32c0  EGL_BAD_ATTRIBUTE
+03-15 08:01:14.372  2014  2052 E EGL_emulation: tid 2052: eglQueryContext(1903): error 0x3004 (EGL_BAD_ATTRIBUTE)
+03-15 08:01:14.915  2014  2052 E Surface : getSlotFromBufferLocked: unknown buffer: 0x0
+03-15 08:01:14.915  2014  2052 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
